@@ -39,3 +39,22 @@ function min(a, b, c) {
 function firstAndLastToUpper(str) {
 	return str.charAt(0).toUpperCase() + str.slice(1, (str.length - 1)) + str.charAt(str.length - 1).toUpperCase();
 }
+/*Task 8*/
+function cursorCheck(str) {
+	const arr = str.split(' ');
+	let isItem = arr.some(item => {
+		item = item.toLowerCase();
+		return (item === 'ironman' || item === 'cursor' || item === 'ostap');
+	});
+	return isItem;
+};
+console.log(cursorCheck('hello OstaP'));
+
+/*const arr = 'Hello ostap'.split(' ');
+
+function checkitem(item) {
+	item = item.toLowerCase;
+	console.log(item);
+	return (item === 'ironman' || item === 'cursor' || item === 'ostap');
+}*/
+
