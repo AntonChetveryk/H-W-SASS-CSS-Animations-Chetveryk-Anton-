@@ -48,13 +48,6 @@ function cursorCheck(str) {
 	});
 	return isItem;
 };
-console.log(cursorCheck('hello OstaP'));
 
-/*const arr = 'Hello ostap'.split(' ');
 
-function checkitem(item) {
-	item = item.toLowerCase;
-	console.log(item);
-	return (item === 'ironman' || item === 'cursor' || item === 'ostap');
-}*/
 
