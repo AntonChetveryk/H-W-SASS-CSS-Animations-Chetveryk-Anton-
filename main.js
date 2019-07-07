@@ -49,5 +49,19 @@ function cursorCheck(str) {
 	return isItem;
 };
 
+/*Task 11*/
+function fibonacci(n){
+	let a = 1;
+	let b = 1;
+	let fibNumber;
+	for(let i=2; i<n; i++){
+		fibNumber = a + b;
+		a=b;
+		b=fibNumber;
+	}
+	return fibNumber;
+}
+
+console.log(fibonacci(17));
 
 
